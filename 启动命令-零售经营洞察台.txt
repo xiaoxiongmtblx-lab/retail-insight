@@ -1,0 +1,11 @@
+启动aconda promot
+# —— 只在第一次做 ——
+conda create -n retail python=3.11 -y
+conda activate retail
+cd C:\Users\wb_hanjianxiong\github_project\retail-insight
+pip install -r requirements.txt
+
+# —— 以后每次启动 ——
+conda activate retail
+cd C:\Users\wb_hanjianxiong\github_project\retail-insight
+streamlit run app.py
